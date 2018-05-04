@@ -15,8 +15,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textColor="#fff"
+            android:textColor="#FF4500"
             android:textSize="24sp"
+            android:text="nihao"
 
             />
         <!--
@@ -50,20 +51,12 @@
             android:layout_centerInParent="true"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/current_date"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
                 android:textColor="#FFF"
                 android:textSize="18sp"/>
-            <TextView
-                android:id="@+id/current_date"
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:gravity="center"
-                android:textColor="#FFF"
-                android:textSize="18sp"
-                
-                />
             <TextView
                 android:id="@+id/weather_desp"
                 android:layout_width="wrap_content"
